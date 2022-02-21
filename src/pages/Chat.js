@@ -1,7 +1,7 @@
 import React from 'react'
 import {useEffect, useState} from 'react'
 
-function Chat() {
+function Chat({socket}) {
 
   const [chatList, setChatList] = useState("")
   
